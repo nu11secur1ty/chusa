@@ -8,7 +8,7 @@ một hệ thống phát hiện mạnh mẽ, nhiều tính năng thích hợp ch
 Ảnh chụp màn hình
 ----
 
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
 Bạn có thể truy cập vào [bộ sưu tập ảnh chụp màn hình](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) - nơi trình bày một số tính năng có thể tìm thấy trong wiki.
 
