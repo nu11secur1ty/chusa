@@ -39,7 +39,7 @@ To get an overview of chusa capabilities, a list of supported features, and a de
 * **Issue tracker**: https://github.com/nu11secur1ty/chusa/issues
 * **User's manual**: https://github.com/nu11secur1ty/chusa/wiki
 * **Frequently Asked Questions (FAQ)**: https://github.com/nu11secur1ty/chusa/wiki/FAQ
-* **X**: [@nu11secur1ty](https://x.com/nu11secur1ty)
+* **X**: [@nu11secur1ty](https://x.com/nu11secur1ty1)
 * **Demos**: [https://www.patreon.com/cw/nu11secur1ty](https://www.patreon.com/cw/nu11secur1ty)
 * **Screenshots**: https://github.com/nu11secur1ty/chusa/wiki/Screenshots
 
