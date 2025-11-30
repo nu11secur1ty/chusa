@@ -46,35 +46,6 @@ To get an overview of chusa capabilities, a list of supported features, and a de
 * **Demos**: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
 * **Screenshots**: https://github.com/nu11secur1ty/chusa/wiki/Screenshots
 
-## Translations
-
-* [Arabic](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ar-AR.md)
-* [Bengali](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-bn-BD.md)
-* [Bulgarian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-bg-BG.md)
-* [Chinese](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-zh-CN.md)
-* [Croatian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-hr-HR.md)
-* [Dutch](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-nl-NL.md)
-* [French](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-fr-FR.md)
-* [Georgian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ka-GE.md)
-* [German](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-de-DE.md)
-* [Greek](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-gr-GR.md)
-* [Hindi](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-in-HI.md)
-* [Indonesian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-id-ID.md)
-* [Italian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-it-IT.md)
-* [Japanese](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ja-JP.md)
-* [Korean](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ko-KR.md)
-* [Kurdish (Central)](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ckb-KU.md)
-* [Persian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-fa-IR.md)
-* [Polish](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-pl-PL.md)
-* [Portuguese](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-pt-BR.md)
-* [Russian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-ru-RU.md)
-* [Serbian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-rs-RS.md)
-* [Slovak](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-sk-SK.md)
-* [Spanish](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-es-MX.md)
-* [Turkish](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-tr-TR.md)
-* [Ukrainian](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-uk-UA.md)
-* [Vietnamese](https://github.com/nu11secur1ty/chusa/blob/master/doc/translations/README-vi-VN.md)
-
 ---
 
 **Disclaimer**: Usage of chusa for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
