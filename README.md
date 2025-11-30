@@ -28,7 +28,7 @@ To get a list of all options and switches use:
 
     python chusa.py -hh
 
-You can find a sample run [here](https://asciinema.org/a/46601).
+You can find a demonstration run here [here](https://www.patreon.com/cw/nu11secur1ty).
 
 To get an overview of chusa capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the [user's manual](https://github.com/nu11secur1ty/chusa/wiki/Usage).
 
