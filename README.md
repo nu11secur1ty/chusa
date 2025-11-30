@@ -28,7 +28,7 @@ To get a list of all options and switches use:
 
     python chusa.py -hh
 
-You can find a sample run [here](https://asciinema.org/a/46601).
+You can find a demonstration run here [here](https://www.patreon.com/cw/nu11secur1ty).
 
 To get an overview of chusa capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the [user's manual](https://github.com/nu11secur1ty/chusa/wiki/Usage).
 
@@ -36,12 +36,11 @@ To get an overview of chusa capabilities, a list of supported features, and a de
 
 * **Homepage**: https://www.nu11secur1ty.com
 * **Download**: [.tar.gz](https://github.com/nu11secur1ty/chusa/tarball/master) or [.zip](https://github.com/nu11secur1ty/chusa/zipball/master)
-* **Commits RSS feed**: https://github.com/nu11secur1ty/chusa/commits/master.atom
 * **Issue tracker**: https://github.com/nu11secur1ty/chusa/issues
 * **User's manual**: https://github.com/nu11secur1ty/chusa/wiki
 * **Frequently Asked Questions (FAQ)**: https://github.com/nu11secur1ty/chusa/wiki/FAQ
-* **X**: [@nu11secur1ty](https://x.com/nu11secur1ty)
-* **Demos**: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
+* **X**: [@nu11secur1ty](https://x.com/nu11secur1ty1)
+* **Demos**: [https://www.patreon.com/cw/nu11secur1ty](https://www.patreon.com/cw/nu11secur1ty)
 * **Screenshots**: https://github.com/nu11secur1ty/chusa/wiki/Screenshots
 
 ---
