@@ -36,7 +36,6 @@ To get an overview of chusa capabilities, a list of supported features, and a de
 
 * **Homepage**: https://www.nu11secur1ty.com
 * **Download**: [.tar.gz](https://github.com/nu11secur1ty/chusa/tarball/master) or [.zip](https://github.com/nu11secur1ty/chusa/zipball/master)
-* **Commits RSS feed**: https://github.com/nu11secur1ty/chusa/commits/master.atom
 * **Issue tracker**: https://github.com/nu11secur1ty/chusa/issues
 * **User's manual**: https://github.com/nu11secur1ty/chusa/wiki
 * **Frequently Asked Questions (FAQ)**: https://github.com/nu11secur1ty/chusa/wiki/FAQ
