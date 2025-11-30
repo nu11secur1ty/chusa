@@ -6,7 +6,7 @@ chusa is an open source penetration testing tool that automates the process of d
 
 ## Screenshots
 
-![Screenshot](https://raw.github.com/wiki/nu11secur1ty/chusa/images/sqlmap_screenshot.png)
+![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
 You can visit the [collection of screenshots](https://github.com/nu11secur1ty/chusa/wiki/Screenshots) demonstrating some of the features on the wiki.
 
