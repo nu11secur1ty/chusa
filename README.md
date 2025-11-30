@@ -4,6 +4,29 @@
 
 ![](https://github.com/nu11secur1ty/chusa/blob/main/doc/wall.jpg)
 
+
+
+<script>
+function resize(input) {
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const img = new Image();
+    img.onload = function() {
+      const canvas = document.createElement('canvas');
+      canvas.width = 600;
+      canvas.height = img.height * 600 / img.width;
+      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+      document.getElementById('result').src = canvas.toDataURL();
+    }
+    img.src = e.target.result;
+  }
+  reader.readAsDataURL(input.files[0]);
+}
+</script>
+
+
+
+
 chusa is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
 
 ## Screenshots
