@@ -94,18 +94,24 @@ def update():
 
             # Verify write permissions
             try:
-                open(os.path.join(directory, "chusa.py"), "w+b")
+                # Try both possible main file names
+                main_file = "chusa.py" if os.path.exists(os.path.join(directory, "chusa.py")) else "sqlmap.py"
+                open(os.path.join(directory, main_file), "w+b")
             except Exception as ex:
                 errMsg = "unable to update content of directory '%s' ('%s')" % (directory, getSafeExString(ex))
                 logger.error(errMsg)
             else:
                 # Backup file attributes
-                attrs = os.stat(os.path.join(directory, "chusa.py")).st_mode
+                main_file = "chusa.py" if os.path.exists(os.path.join(directory, "chusa.py")) else "sqlmap.py"
+                attrs = os.stat(os.path.join(directory, main_file)).st_mode
                 
-                # Clear directory contents
+                # Clear directory contents (preserve .git if exists)
                 for wildcard in ('*', ".*"):
                     for filepath in glob.glob(os.path.join(directory, wildcard)):
                         try:
+                            # Skip .git directory to preserve repository
+                            if os.path.basename(filepath) == '.git':
+                                continue
                             if os.path.isdir(filepath):
                                 shutil.rmtree(filepath)
                             else:
@@ -113,29 +119,52 @@ def update():
                         except Exception:
                             pass  # Ignore cleanup errors
 
-                # Verify directory is empty
-                if glob.glob(os.path.join(directory, '*')):
+                # Verify directory is ready for update
+                remaining_files = [f for f in glob.glob(os.path.join(directory, '*')) if os.path.basename(f) != '.git']
+                if remaining_files:
                     errMsg = "unable to clear the content of directory '%s'" % directory
                     logger.error(errMsg)
                 else:
                     try:
-                        # Download and extract latest zipball
+                        # Download and extract latest zipball from nu11secur1ty/chusa
+                        logger.info("downloading latest version from %s" % ZIPBALL_PAGE)
                         archive = _urllib.request.urlretrieve(ZIPBALL_PAGE)[0]
 
                         with zipfile.ZipFile(archive) as zip_file:
+                            # Get the root directory name in the zip
+                            root_dir = None
+                            for name in zip_file.namelist():
+                                if '/' in name and not name.startswith('.'):
+                                    root_dir = name.split('/')[0]
+                                    break
+                            
+                            # Extract all files, adjusting paths
                             for info in zip_file.infolist():
-                                # Remove root directory from path
-                                info.filename = re.sub(r"\Achusa[^/]+", "", info.filename)
-                                if info.filename:
-                                    zip_file.extract(info, directory)
+                                if root_dir and info.filename.startswith(root_dir + '/'):
+                                    # Remove the root directory from the path
+                                    info.filename = info.filename[len(root_dir) + 1:]
+                                
+                                if info.filename and not info.filename.startswith('.'):
+                                    try:
+                                        zip_file.extract(info, directory)
+                                    except Exception as e:
+                                        logger.warning("could not extract %s: %s" % (info.filename, getSafeExString(e)))
 
                         # Verify update success by checking settings file
                         filepath = os.path.join(paths.SQLMAP_ROOT_PATH, "lib", "core", "settings.py")
                         if os.path.isfile(filepath):
                             with openFile(filepath, "r") as f:
-                                version = re.search(r"(?m)^VERSION\s*=\s*['\"]([^'\"]+)", f.read()).group(1)
-                                logger.info("updated to the latest version '%s#dev'" % version)
-                                success = True
+                                content = f.read()
+                                version_match = re.search(r"(?m)^VERSION\s*=\s*['\"]([^'\"]+)", content)
+                                if version_match:
+                                    version = version_match.group(1)
+                                    logger.info("updated to the latest version '%s#dev'" % version)
+                                    success = True
+                                else:
+                                    logger.error("could not determine version from settings file")
+                        else:
+                            logger.error("settings file not found after update")
+                            
                     except Exception as ex:
                         logger.error("update could not be completed ('%s')" % getSafeExString(ex))
                     else:
@@ -144,9 +173,10 @@ def update():
                         else:
                             # Restore file attributes
                             try:
-                                os.chmod(os.path.join(directory, "chusa.py"), attrs)
+                                main_file = "chusa.py" if os.path.exists(os.path.join(directory, "chusa.py")) else "sqlmap.py"
+                                os.chmod(os.path.join(directory, main_file), attrs)
                             except OSError:
-                                logger.warning("could not set the file attributes of '%s'" % os.path.join(directory, "chusa.py"))
+                                logger.warning("could not set the file attributes of main file")
 
     # =========================================================================
     # GIT COMMAND UPDATE METHOD
@@ -163,7 +193,7 @@ def update():
 
         output = ""
         try:
-            # Reset any local changes and pull latest updates
+            # Reset any local changes and pull latest updates from nu11secur1ty/chusa
             process = subprocess.Popen("git checkout . && git pull %s HEAD" % GIT_REPOSITORY, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=paths.SQLMAP_ROOT_PATH)
             pollProcess(process, True)
             output, _ = process.communicate()
