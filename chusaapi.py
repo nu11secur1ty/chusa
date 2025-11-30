@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Copyright (c) 2006-2025 sqlmap developers (https://sqlmap.org)
+Copyright (c) 2024-2025 chusa developers (https://www.nu11secur1ty.com)
 See the file 'LICENSE' for copying permission
 """
 
