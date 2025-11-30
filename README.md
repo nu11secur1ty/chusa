@@ -1,6 +1,6 @@
 # chusa ![](https://i.imgur.com/fe85aVR.png)
 
-[![.github/workflows/tests.yml](https://github.com/nu11secur1ty/chusa/actions/workflows/tests.yml/badge.svg)](https://github.com/nu11secur1ty/chusa/actions/workflows/tests.yml) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/nu11secur1ty/chusa/master/LICENSE) [![x](https://img.shields.io/badge/x-@nu11secur1ty-blue.svg)](https://x.com/nu11secur1ty_)
+[![.github/workflows/tests.yml](https://github.com/nu11secur1ty/chusa/actions/workflows/tests.yml/badge.svg)](https://github.com/nu11secur1ty/chusa/actions/workflows/tests.yml) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/nu11secur1ty/chusa/master/LICENSE) [![x](https://img.shields.io/badge/x-@nu11secur1ty-blue.svg)](https://x.com/nu11secur1ty1)
 
 chusa is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
 
