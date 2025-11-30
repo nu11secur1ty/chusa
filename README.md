@@ -8,8 +8,6 @@ chusa is an open source penetration testing tool that automates the process of d
 
 ![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
-You can visit the [collection of screenshots](https://github.com/nu11secur1ty/chusa/wiki/Screenshots) demonstrating some of the features on the wiki.
-
 ## Installation
 
 You can download the latest tarball by clicking [here](https://github.com/nu11secur1ty/chusa/tarball/master) or latest zipball by clicking [here](https://github.com/nu11secur1ty/chusa/zipball/master).
