@@ -7,7 +7,7 @@ sqlmap 是一款开源的渗透测试工具，可以自动化进行SQL注入的�
 演示截图
 ----
 
-![截图](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+![截图](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
 你可以查看 wiki 上的 [截图](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) 了解各种用法的示例
 
