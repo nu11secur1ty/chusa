@@ -41,7 +41,7 @@ To get an overview of chusa capabilities, a list of supported features, and a de
 * **User's manual**: https://github.com/nu11secur1ty/chusa/wiki
 * **Frequently Asked Questions (FAQ)**: https://github.com/nu11secur1ty/chusa/wiki/FAQ
 * **X**: [@nu11secur1ty](https://x.com/nu11secur1ty)
-* **Demos**: [https://www.youtube.com/user/inquisb/videos](https://www.youtube.com/user/inquisb/videos)
+* **Demos**: [https://www.patreon.com/cw/nu11secur1ty](https://www.patreon.com/cw/nu11secur1ty)
 * **Screenshots**: https://github.com/nu11secur1ty/chusa/wiki/Screenshots
 
 ---
