@@ -31,11 +31,11 @@ DESCRIPTION = "automatic SQL injection and database takeover tool"
 SITE = "https://www.nu11secur1ty.com"
 DEFAULT_USER_AGENT = "%s (%s)" % (VERSION_STRING, SITE)
 DEV_EMAIL_ADDRESS = "dev@nu11secur1ty.com"
-ISSUES_PAGE = "https://github.com/nu11secur1ty/sqlmap/issues/new"
+ISSUES_PAGE = "https://github.com/nu11secur1ty/chusa/issues/new"
 GIT_REPOSITORY = "https://github.com/nu11secur1ty/chusa.git"
-GIT_PAGE = "https://github.com/nu11secur1ty/sqlmap"
-WIKI_PAGE = "https://github.com/nu11secur1ty/sqlmap/wiki/"
-ZIPBALL_PAGE = "https://github.com/nu11secur1ty/sqlmap/zipball/master"
+GIT_PAGE = "https://github.com/nu11secur1ty/chusa"
+WIKI_PAGE = "https://github.com/nu11secur1ty/chusa/wiki/"
+ZIPBALL_PAGE = "https://github.com/nu11secur1ty/chusa/zipball/master"
 
 # =============================================================================
 # BANNER & DISPLAY CONFIGURATION
