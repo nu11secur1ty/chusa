@@ -10,11 +10,11 @@ Chusa -  `注射 `is an open source penetration testing tool based on SQLmap tha
 ## Screenshots:
 
 - - - CLI:
-    - 
+     
 ![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
 - - - Web-UI-Api:
-    - 
+      
 ![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/chusa-ui-api.png)
 
 ## Installation:
