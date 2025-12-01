@@ -5,7 +5,7 @@
 
 <img src="https://github.com/nu11secur1ty/chusa/raw/main/doc/wall.jpg" style="width: 1024px">
 
-Chusa is an open source penetration testing tool based on SQLmap that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches, including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
+Chusa -  注射 is an open source penetration testing tool based on SQLmap that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches, including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
 
 ## Screenshots
 
