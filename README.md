@@ -1,4 +1,4 @@
-# chusa ![](https://i.imgur.com/fe85aVR.png)
+# chusa: ![](https://i.imgur.com/fe85aVR.png)
 
 [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/nu11secur1ty/chusa/master/LICENSE) [![x](https://img.shields.io/badge/x-@nu11secur1ty-blue.svg)](https://x.com/nu11secur1ty1)
 
@@ -7,14 +7,17 @@
 
 Chusa -  `注射 `is an open source penetration testing tool based on SQLmap that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches, including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
 
-## Screenshots
-- - - CLI
+## Screenshots:
+
+- - - CLI:
+    - 
 ![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/Screenshot%202025-11-30%20114344.png)
 
 - - - Web-UI-Api:
+    - 
 ![Screenshot](https://github.com/nu11secur1ty/chusa/blob/main/doc/screenshots/chusa-ui-api.png)
 
-## Installation
+## Installation:
 
 You can download the latest tarball by clicking [here](https://github.com/nu11secur1ty/chusa/tarball/master) or latest zipball by clicking [here](https://github.com/nu11secur1ty/chusa/zipball/master).
 
@@ -24,7 +27,7 @@ Preferably, you can download chusa by cloning the [Git](https://github.com/nu11s
 
 chusa works out of the box with [Python](https://www.python.org/download/) version **2.6**, **2.7** and **3.x** on any platform.
 
-## Usage
+## Usage:
 
 To get a list of basic options and switches use:
 
@@ -38,7 +41,7 @@ You can find a demonstration run here [here](https://www.patreon.com/cw/nu11secu
 
 To get an overview of chusa capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the [user's manual](https://github.com/nu11secur1ty/chusa/wiki/Usage).
 
-## Links
+## Links:
 
 * **Homepage**: https://www.nu11secur1ty.com
 * **Download**: [.tar.gz](https://github.com/nu11secur1ty/chusa/tarball/master) or [.zip](https://github.com/nu11secur1ty/chusa/zipball/master)
