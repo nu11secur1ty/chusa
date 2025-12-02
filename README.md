@@ -1,4 +1,4 @@
-# chusa: ![](https://i.imgur.com/fe85aVR.png)
+# chusa: 
 
 [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/nu11secur1ty/chusa/master/LICENSE) [![x](https://img.shields.io/badge/x-@nu11secur1ty-blue.svg)](https://x.com/nu11secur1ty1)
 
